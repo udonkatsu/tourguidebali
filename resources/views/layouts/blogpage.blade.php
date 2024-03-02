@@ -1,81 +1,57 @@
-<!-- component -->
-<section class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Tips dan panduan Liburan</h1>
-
-        <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
-            <div class="lg:flex">
-                <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://wisatabalipenida.com/wp-content/uploads/elementor/thumbs/teluk-gamat_feat-qiavw4cm7tm8k6f71odsiaibunwlhlkd9eapgwo1y6.jpg" alt="">
-
-                <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                        Teluk Gamat Nusa Penida
-                    </a>
-
-                    <span class="text-sm text-gray-500 dark:text-gray-300">Nusa Penida</span>
+<div class="bg-gradient-to-bl from-blue-50 to-violet-50 flex items-center justify-center lg:h-screen">
+    <div class="container mx-auto mx-auto p-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+            <div class="bg-white rounded-lg border p-4">
+                <img src="" alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover">
+                <div class="px-1 py-4">
+                    <div class="font-bold text-xl mb-2">Goa Giri Putri</div>
+                    <p class="text-gray-700 text-base">
+                        Eksplorasi Keindahan Misterius Goa Giri Putri Yang Terletak di Pulau Nusa Penida.
+                    </p>
+                </div>
+                <div class="px-1 py-4">
+                    <a href="#" class="text-blue-500 hover:underline">Baca Selengkapnya</a>
                 </div>
             </div>
-
-            <div class="lg:flex">
-                <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://wisatabalipenida.com/wp-content/uploads/elementor/thumbs/goa-giri-putri-qiavw4cm7tm8k6f71odsiaibunwlhlkd9eapgwo1y6.jpg" alt="">
-
-                <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                        Keindahan Goa Giri Putri
-                    </a>
-
-                    <span class="text-sm text-gray-500 dark:text-gray-300">Nusa Penida</span>
+            <div class="bg-white rounded-lg border p-4">
+                <img src="" alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover">
+                <div class="px-1 py-4">
+                    <div class="font-bold text-xl mb-2">Rekomendasi Restoran Nusa Penida</div>
+                    <p class="text-gray-700 text-base">
+                        Restoran Nusa Penida menawarkan berbagai hidangan lezat yang dibuat dengan bahan-bahan segar dan
+                        lokal.
+                    </p>
+                </div>
+                <div class="px-1 py-4">
+                    <a href="#" class="text-blue-500 hover:underline">Baca Selengkapnya</a>
                 </div>
             </div>
-
-            <div class="lg:flex">
-                <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://wisatabalipenida.com/wp-content/uploads/elementor/thumbs/goa-giri-putri-qiavw4cm7tm8k6f71odsiaibunwlhlkd9eapgwo1y6.jpg" alt="">
-
-                <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                        Keindahan Goa Giri Putri
-                    </a>
-
-                    <span class="text-sm text-gray-500 dark:text-gray-300">Nusa Penida</span>
+            <div class="bg-white rounded-lg border p-4">
+                <img src="" alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover">
+                <div class="px-1 py-4">
+                    <div class="font-bold text-xl mb-2">Monkey Forest Ubud</div>
+                    <p class="text-gray-700 text-base">
+                        Monkey forest Ubud menjadi salah satu paket wisata yang sering ada di tour Ubud karena memang
+                        tempat wisata ini dapat dikatakan sangat unik.
+                    </p>
+                </div>
+                <div class="px-1 py-4">
+                    <a href="#" class="text-blue-500 hover:underline">Baca Selengkapnya</a>
                 </div>
             </div>
-
-            <div class="lg:flex">
-                <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://wisatabalipenida.com/wp-content/uploads/elementor/thumbs/teluk-gamat_feat-qiavw4cm7tm8k6f71odsiaibunwlhlkd9eapgwo1y6.jpg" alt="">
-
-                <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                        Teluk Gamat Nusa Penida
-                    </a>
-
-                    <span class="text-sm text-gray-500 dark:text-gray-300">Nusa Penida</span>
+            <div class="bg-white rounded-lg border p-4">
+                <img src="" alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover">
+                <div class="px-1 py-4">
+                    <div class="font-bold text-xl mb-2">Bali Handara Gate</div>
+                    <p class="text-gray-700 text-base">
+                        Objek wisata ini berupa bangunan pintu gerbang atau gapura biasa. Bangunan ini hanya gerbang
+                        menuju area resort maupun lapangan golf yang dikenal dengan nama Handara Golf dan Resort.
+                    </p>
+                </div>
+                <div class="px-1 py-4">
+                    <a href="#" class="text-blue-500 hover:underline">Baca Selengkapnya</a>
                 </div>
             </div>
-
-            <div class="lg:flex">
-                <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://wisatabalipenida.com/wp-content/uploads/elementor/thumbs/teluk-gamat_feat-qiavw4cm7tm8k6f71odsiaibunwlhlkd9eapgwo1y6.jpg" alt="">
-
-                <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                        Teluk Gamat Nusa Penida
-                    </a>
-
-                    <span class="text-sm text-gray-500 dark:text-gray-300">Nusa Penida</span>
-                </div>
-            </div>
-
-            <div class="lg:flex">
-                <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://wisatabalipenida.com/wp-content/uploads/elementor/thumbs/goa-giri-putri-qiavw4cm7tm8k6f71odsiaibunwlhlkd9eapgwo1y6.jpg" alt="">
-
-                <div class="flex flex-col justify-between py-6 lg:mx-6">
-                    <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                        Keindahan Goa Giri Putri
-                    </a>
-
-                    <span class="text-sm text-gray-500 dark:text-gray-300">Nusa Penida</span>
-                </div>
-            </div>
-
         </div>
     </div>
-</section>
+</div>
