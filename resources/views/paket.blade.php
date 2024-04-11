@@ -27,12 +27,12 @@
 <body class="" style="">
     @extends('layouts.main')
 
-    @include('layouts.navbar')
-
     <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
     <link rel="stylesheet"
         href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
     @section('content')
+
     <div class="py-6 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center space-x-2 text-gray-400 text-sm">
@@ -61,22 +61,22 @@
                         <div class="h-64 md:h-96 rounded-lg bg-gray-100 mb-4">
                             <div x-show="image === 1"
                                 class="h-64 md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center justify-center">
-                                <span class="text-5xl">1</span>
+                                <img src="/images/{{ $img1 }}" alt="Image" class="object-cover w-full h-full">
                             </div>
 
                             <div x-show="image === 2"
                                 class="h-64 md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center justify-center">
-                                <span class="text-5xl">2</span>
+                                <img src="/images/{{ $img2 }}" alt="Image" class="object-cover w-full h-full">
                             </div>
 
                             <div x-show="image === 3"
                                 class="h-64 md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center justify-center">
-                                <span class="text-5xl">3</span>
+                                <img src="/images/{{ $img3 }}" alt="Image" class="object-cover w-full h-full">
                             </div>
 
                             <div x-show="image === 4"
                                 class="h-64 md:h-96 rounded-lg bg-gray-100 mb-4 flex items-center justify-center">
-                                <span class="text-5xl">4</span>
+                                <img src="/images/{{ $img4 }}" alt="Image" class="object-cover w-full h-full">
                             </div>
                         </div>
 
@@ -85,14 +85,19 @@
                                 <div class="flex-1 px-2">
                                     <button x-on:click="image = i"
                                         :class="{ 'ring-2 ring-indigo-300 ring-inset': image === i }"
-                                        class="focus:outline-none w-full rounded-lg h-24 md:h-32 bg-gray-100 flex items-center justify-center">
-                                        <span x-text="i" class="text-2xl"></span>
+                                        class="focus:outline-none w-full rounded-lg h-24 md:h-32 bg-gray-100 flex items-center justify-center relative">
+                                        <img :src="'/images/' + (i === 1 ? '{{ $img1 }}' : i === 2 ? '{{ $img2 }}' : i === 3 ? '{{ $img3 }}' : '{{ $img4 }}')"
+                                            :alt="'Image'"
+                                            class="absolute inset-0 object-cover w-full h-full opacity-25">
                                     </button>
                                 </div>
                             </template>
                         </div>
                     </div>
                 </div>
+
+
+
                 <div class="md:flex-1 px-4">
                     <h2 class="mb-2 leading-tight tracking-tight font-bold text-gray-800 text-2xl md:text-3xl">
                         {{ $title }}</h2>
@@ -103,29 +108,20 @@
                         <div>
                             <div class="rounded-lg bg-gray-100 flex py-2 px-3">
                                 <span class="text-black mr-1 mt-1">Rp.</span>
-                                <span class="font-bold text-black text-3xl">450.000</span>
+                                <span class="font-bold text-black text-3xl">{{ $harga }}</span>
                             </div>
                         </div>
                         <div class="flex-1">
-                            <p class="text-black text-xl font-semibold">3-5 Orang</p>
+                            <p class="text-black text-xl font-semibold">5-6 Orang</p>
                             <p class="text-gray-400 text-sm">Harga Per Orang.</p>
                         </div>
                     </div>
 
-                    <p class="text-gray-500">Rasakan keindahan spiritual dan alam Bali yang sejati dengan Paket Tour
-                        Besakih dari Wisata Bali Penida. Nikmati momen berdiri di depan Pura Besakih, sambil memandang
-                        gunung dan alam sekitarnya yang memukau. Pengalaman ini tidak sekadar kunjungan biasa; Anda akan
-                        diajak menjelajahi tempat-tempat suci lainnya seperti Pura Goa Lawah dan Kerta Gosa Klungkung.
-                        Sambil menikmati makan siang di Bukit Jambul, Anda bisa menyaksikan pemandangan indah yang
-                        memikat hati. Jangan lupa untuk berfoto di depan Handara Gate dan merasakan ketenangan di Pura
-                        Besakih. Dengan harga terjangkau mulai dari Rp 475,000, Paket Tour Besakih menawarkan pengalaman
-                        tak terlupakan untuk merasakan kedamaian spiritual dan keindahan alam Bali yang otentik. Pesan
-                        sekarang dan buat kenangan yang tak terlupakan!.</p>
+                    <p class="text-gray-500 text-justify">{{ $deskripsi }}</p>
 
                     <div class="flex py-4 space-x-2 items-start">
-                        <div class="relative">
-                        </div>
                         <button type="button"
+                            onclick="var win=window.open('https://wa.me/6289643441193','_blank');win.focus();"
                             class="h-14 px-6 py-2 font-semibold rounded-xl bg-black hover:bg-green-500 text-white">
                             Pesan via Whatsapp
                         </button>
@@ -139,8 +135,12 @@
 
 
     @include('layouts.fasilitas')
-    @include('layouts.footer')
+
+    <!-- @include('layouts.footer') -->
+
+
     @endsection
+
 </body>
 
 </html>

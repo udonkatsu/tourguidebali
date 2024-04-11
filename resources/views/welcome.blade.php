@@ -52,24 +52,22 @@
                                     kami.
                                 </p>
                                 <p class="text-md font-light text-black mb-4">
-                                    Semua persiapan sebelum tour sudah kami siapkan untuk menjamin kelancaran anda
-                                    selama menggunakan jasa kami. Keselamatan dan kenyamanan Anda adalah perhatian utama
-                                    kami.
+                                    Dengan pelayanan yang profesional, kami menjamin Anda akan mendapatkan pengalaman
+                                    wisata yang tak terlupakan di Bali dan Nusa Penida.
                                 </p>
                                 <p class="text-md font-light text-black mb-4">
-                                    Semua persiapan sebelum tour sudah kami siapkan untuk menjamin kelancaran anda
-                                    selama menggunakan jasa kami. Keselamatan dan kenyamanan Anda adalah perhatian utama
-                                    kami.
+                                    Kami selalu siap membantu Anda dalam merencanakan perjalanan impian Anda, mulai dari
+                                    memilih paket tur hingga memberikan saran terbaik untuk mengoptimalkan liburan Anda.
                                 </p>
                                 <p class="text-md font-light text-black mb-4">
-                                    Semua persiapan sebelum tour sudah kami siapkan untuk menjamin kelancaran anda
-                                    selama menggunakan jasa kami. Keselamatan dan kenyamanan Anda adalah perhatian utama
-                                    kami.
+                                    Dengan TourGuide, Anda tidak hanya mendapatkan tur yang luar biasa, tetapi juga
+                                    memperoleh teman perjalanan yang peduli dan membantu, siap memberikan pengalaman
+                                    liburan yang tak terlupakan.
                                 </p>
                                 <p class="text-md font-light text-black mb-4">
-                                    Semua persiapan sebelum tour sudah kami siapkan untuk menjamin kelancaran anda
-                                    selama menggunakan jasa kami. Keselamatan dan kenyamanan Anda adalah perhatian utama
-                                    kami.
+                                    Jadi, jangan ragu untuk memilih TourGuide sebagai mitra perjalanan Anda di Bali dan
+                                    Nusa Penida. Kami akan membantu mewujudkan liburan Anda menjadi pengalaman yang tak
+                                    terlupakan!
                                 </p>
                             </blockquote>
                         </div>
@@ -144,25 +142,29 @@
         </div>
     </section>
 
+    @include('layouts.cardrekomen')
 
-    @include('layouts.blogpage')
+    <!-- @include('layouts.blogpage') -->
 
-    <div class="bg-blueGray-200 rounded-lg py-10 my-10">
-        <div class="container flex flex-col mx-auto rounded-lg pt-12 my-5">
-            <div class="container flex flex-col items-center gap-16 mx-auto my-32">
-                <div class="flex flex-col gap-7">
-                    <div class="flex flex-col gap-2 px-6 text-center w-10/12 mx-auto">
-                        <h2 class="text-3xl font-extrabold leading-tight lg:text-4xl text-dark-grey-900">Apakah Kamu
-                            Memiliki Pertanyaan?</h2>
-                        <h2 class="text-3xl font-extrabold leading-tight lg:text-4xl text-dark-grey-900">Hubungi kami!
-                        </h2>
-                        <p class="text-base font-medium leading-7 text-dark-grey-600">Klik Tombol dibawah ini untuk
-                            menghubungi kami.</p>
-                    </div>
-                    <div class="flex items-center justify-center">
-                        <button
-                            class="flex items-center justify-center py-4 text-white px-7 rounded-2xl bg-gray-500 hover:bg-gray-600 focus:ring-4 focus:ring-gray-100 transition duration-300">Hubungi
-                            Kami</button>
+    <div class="pt-10">
+        <div class="bg-gray-200 rounded-lg py-10 my-10">
+            <div class="container flex flex-col mx-auto rounded-lg pt-12 my-5">
+                <div class="container flex flex-col items-center gap-16 mx-auto my-32">
+                    <div class="flex flex-col gap-7">
+                        <div class="flex flex-col gap-2 px-6 text-center w-10/12 mx-auto">
+                            <h2 class="text-3xl font-extrabold leading-tight lg:text-4xl text-dark-grey-900">Apakah Kamu
+                                Memiliki Pertanyaan?</h2>
+                            <h2 class="text-3xl font-extrabold leading-tight lg:text-4xl text-dark-grey-900">Hubungi
+                                kami!
+                            </h2>
+                            <p class="text-base font-medium leading-7 text-dark-grey-600">Klik Tombol dibawah ini untuk
+                                menghubungi kami.</p>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <button onclick="var win=window.open('https://wa.me/6289643441193','_blank');win.focus();"
+                                class="flex items-center justify-center py-4 text-white px-7 rounded-2xl bg-gray-500 hover:bg-gray-600 focus:ring-4 focus:ring-gray-100 transition duration-300">Hubungi
+                                Kami</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,12 +173,12 @@
     </div>
     <div class="flex flex-wrap -mx-3 my-5">
         <div class="w-full max-w-full sm:w-3/4 mx-auto text-center">
-
         </div>
     </div>
     </div>
 
     @include('layouts.footer')
+
 </body>
 
 </html>

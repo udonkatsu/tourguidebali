@@ -3,11 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Paket;
 
 class PaketController extends Controller
 {
-    public function bali()
+        public function index()
     {
-        return view('paket.bali');
+        $paket = Paket::all();
+        return view('welcome', ['pakets' => $pakets]);
     }
+
 }
+
+?>

@@ -1,8 +1,9 @@
-<div class="bg-gradient-to-bl from-blue-50 to-violet-50 flex items-center justify-center lg:h-screen">
+<div class="bg-gradient-to-bl from-blue-50 to-violet-50 flex items-center justify-center lg:h-screen pt-20">
     <div class="container mx-auto mx-auto p-4">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
             <div class="bg-white rounded-lg border p-4">
-                <img src="" alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover">
+                <img src="https://images.pexels.com/photos/2499751/pexels-photo-2499751.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover">
                 <div class="px-1 py-4">
                     <div class="font-bold text-xl mb-2">Goa Giri Putri</div>
                     <p class="text-gray-700 text-base">
@@ -14,7 +15,7 @@
                 </div>
             </div>
             <div class="bg-white rounded-lg border p-4">
-                <img src="" alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover">
+                <img src="" alt="gambar" class="bg-gray-300 w-full h-48 rounded-md object-cover pt-3">
                 <div class="px-1 py-4">
                     <div class="font-bold text-xl mb-2">Rekomendasi Restoran Nusa Penida</div>
                     <p class="text-gray-700 text-base">

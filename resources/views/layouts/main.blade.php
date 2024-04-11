@@ -1,3 +1,12 @@
+<?php
+$pakets = [
+    'one-day-trip-western' => getPaketData('one-day-trip-western'),
+    'One-Day-Tour-west-Nusa-Penida' => getPaketData('One-Day-Tour-west-Nusa-Penida'),
+    'One-Day-East-Tour-Nusa-Penida' => getPaketData('One-Day-East-Tour-Nusa-Penida'),
+    'Combination-Nusa-Penida-Tour' => getPaketData('Combination-Nusa-Penida-Tour'),
+];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +18,7 @@
 
 <body>
     <header>
-        <!-- @include('layouts.navbar') -->
+        @include('layouts.navbar')
     </header>
 
     <main>
@@ -17,7 +26,7 @@
     </main>
 
     <footer>
-        <!-- Footer content goes here -->
+        @include('layouts.footer')
     </footer>
 </body>
 
